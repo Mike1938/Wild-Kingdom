@@ -4,11 +4,34 @@
     padding: 0;
 }
 .bird{
-    
+    background-image: url(https://images.unsplash.com/photo-1564928227306-b9bb98f7dc6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    background-size: cover;
+    background-position: center;
+}
+.elephant{
+    background-image: url(https://images.unsplash.com/photo-1591870057348-11b133e3c405?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+}
+.turtle{
+    background-image: url(https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80);
+    background-size: cover;
+    background-position: center;
+}
+.fox{
+    background-image: url(https://images.unsplash.com/photo-1462953491269-9aff00919695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    background-size: cover;
+    background-position: center;
 }
 .grid{
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-auto-rows: 300px;
+}
+.vimg{
+    grid-row: span 2;
+}
+.himg{
+    grid-column: span 2;
 }
