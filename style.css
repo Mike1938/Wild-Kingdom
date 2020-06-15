@@ -71,9 +71,11 @@
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     grid-auto-rows: 300px;
 }
-.vimg{
-    grid-row: span 2;
-}
-.himg{
-    grid-column: span 2;
+@media screen and (min-width: 600px){
+    .vimg{
+        grid-row: span 2 / auto;
+    }
+    .himg{
+        grid-column: span 2 / auto;
+    }
 }
