@@ -4,6 +4,7 @@
     padding: 0;
     background-color: #353b48;
     font-family: 'Quicksand', sans-serif;
+    color: white;
 }
 #navigation{
     display: flex;
@@ -11,7 +12,6 @@
     align-items: center;
     padding: 10px 20px;
     background-color: #e84118;
-    margin-bottom: 30px;
 }
 .brand{
     font-size: 1.5rem ;
@@ -27,13 +27,26 @@
     background-color: #e84118;
 }
 #navigation a{
-    color: white;
     text-decoration: none;
     background-color: #e84118;
 }
 #navigation a:hover{
-    color: red;
+    color: #ff0000;
     transition: ease-in 100ms;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+}
+.container h1{
+    font-size: 4rem;
+    font-weight: 300;
+}
+.container p{
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 .bird{
     background-image: url(https://images.unsplash.com/photo-1564928227306-b9bb98f7dc6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
