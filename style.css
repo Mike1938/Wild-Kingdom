@@ -78,8 +78,8 @@
     background-size: cover;
     background-position: center;
 }
-.wasp{
-    background-image: url(https://images.unsplash.com/photo-1558992500-0446f0a47538?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+.panda{
+    background-image: url(https://images.unsplash.com/photo-1527118732049-c88155f2107c?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
     background-size: cover;
     background-position: center;
 }
@@ -104,8 +104,18 @@
     background-size: cover;
     background-position: center;
 }
+.snake{
+    background-image: url(https://images.unsplash.com/photo-1571222244164-0178542cdfcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80);
+    background-size: cover;
+    background-position: center;
+}
 .koala{
     background-image: url(https://images.unsplash.com/photo-1553445297-8bfd1c0ecfd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+}
+.zebra{
+    background-image: url(https://images.unsplash.com/photo-1501706362039-c06b2d715385?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1070&q=80);
     background-size: cover;
     background-position: center;
 }
@@ -122,6 +132,12 @@
     }
     .himg{
         grid-column: span 2 / auto;
+    }
+}
+@media screen and (max-width: 820px){
+    .simg{
+        grid-row: span 2 / auto;
+        grid-column: span 2 / auto
     }
 }
 @media (max-width: 686px){
